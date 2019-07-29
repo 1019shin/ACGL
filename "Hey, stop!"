@@ -1,0 +1,11 @@
+//This code is a code of HSP
+//used var.:
+//used label:*st_first
+*st_first
+  if time < 15 minutes {//いい感じに変えといてください。
+    mes "There are " + ( 15 minutes - time ) + " seconds...."
+  } else {
+    mes "Please finish your play!"
+    
+  }
+  //途中だけどきにしない。
